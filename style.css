@@ -1,6 +1,8 @@
 body {
-  background-color: #070745;
-  color: #E9E1CB;
+  background-color: #1B294B;
+  color: #EAE0C8;
+
+  font-family: 'Montserrat', sans-serif;
 }
 
 #myau_video{
@@ -12,4 +14,5 @@ body {
   width: 100%;
   max-width: 700px;
   padding: 0px;
+  text-align: center;	
 }
