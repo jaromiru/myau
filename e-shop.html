@@ -23,9 +23,13 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
+
+
 </head>
 
 <body>
+	<script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?29154062&data_platform=code&data_date=2020-04-30" charset="utf-8"></script>
+
 	<div class="container-fluid">
 		<!-- HEADER -->
 		<div class="row header">
@@ -48,29 +52,33 @@
 
 				<br>
 
+				<!-- SEARCH -->
 				<div id="my-search-29154062" class="text-center"></div>
 				<div>
-				<script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?29154062&data_platform=code&data_date=2020-04-30" charset="utf-8"></script>
-				<script type="text/javascript"> xSearch("id=my-search-29154062"); </script>
+					<script type="text/javascript"> xSearch("id=my-search-29154062"); </script>
 				</div>
 
 				<br>
 
-				<div class="ec-cart-widget text-center"></div>
+				<!-- PROFILE -->
+				<div class="text-center mb-3">
+					<a href="/e-shop#!/~/accountSettings">
+						<i class="fas fa-2x fa-address-book mr-2" style="vertical-align: bottom;"></i> <span class="font-weight-bold">Váš účet</span> 
+					</a>
+				</div>
+
+				<!-- SHOPPING CART -->
+				<div data-layout="BIG_ICON_TITLE_SUBTOTAL" class="ec-cart-widget text-center"></div>
 				<div>
-					<script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?29154062&data_platform=code&data_date=2020-04-30" charset="utf-8"></script>
 					<script type="text/javascript">Ecwid.init();</script>
 				</div>
 			</div>
 
 			<div class="col">
- 				<div class="row">
-					<div class="col">
-						<div id="my-store-29154062"></div>
-						<div>
-						<script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?29154062&data_platform=code&data_date=2020-04-30" charset="utf-8"></script><script type="text/javascript"> xProductBrowser("categoriesPerRow=3","views=grid(20,3) list(60) table(60)","categoryView=grid","searchView=list","id=my-store-29154062");</script>
-						</div>
-					</div>
+				<div id="my-store-29154062"></div>
+				<div>
+
+					<script type="text/javascript"> xProductBrowser("categoriesPerRow=3","views=grid(20,3) list(60) table(60)","categoryView=grid","searchView=list","id=my-store-29154062");</script>
 				</div>
 			</div>
 		</div>
