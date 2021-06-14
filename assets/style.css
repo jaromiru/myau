@@ -156,3 +156,8 @@ p {
 	margin-top: 10px;
 	font-size: 150%;
 }
+
+.person-portrait {
+  object-fit: cover;
+  height: 300px;
+}
